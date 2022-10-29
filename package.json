@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://katomatsu.github.io/Windows",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
-  "author": "",
+  "author": "katomatsu",
   "license": "ISC",
   "browserslist": [
     "> 1%",
@@ -20,8 +21,13 @@
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.7",
     "core-js": "^3.4.2",
+    "gh-pages": "^4.0.0",
     "gulp": "^4.0.2",
     "webpack": "^4.41.2",
     "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "slick-carousel": "^1.8.1"
   }
 }

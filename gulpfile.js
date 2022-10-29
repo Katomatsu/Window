@@ -17,7 +17,7 @@ gulp.task("build-js", () => {
                 .pipe(webpack({
                     mode: 'development',
                     output: {
-                        filename: 'script.js'
+                        filename: 'index.js'
                     },
                     watch: false,
                     devtool: "source-map",
@@ -69,7 +69,7 @@ gulp.task("build-prod-js", () => {
                 .pipe(webpack({
                     mode: 'production',
                     output: {
-                        filename: 'script.js'
+                        filename: 'index.js'
                     },
                     module: {
                         rules: [
